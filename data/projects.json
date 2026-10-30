@@ -104,24 +104,6 @@
     "addedAt": "2026-10-30"
   },
   {
-    "id": "stormforge",
-    "title": "Stormforge",
-    "description": "Blizzlike TBC and MoP realms. Closed in May 2026 after a cease-and-desist from Blizzard.",
-    "image": null,
-    "url": "https://stormforge.gg",
-    "type": "Private Server",
-    "expansion": "Multiple",
-    "version": "2.4.3 · 5.4.8",
-    "customContent": "No",
-    "tags": [
-      "Blizzlike"
-    ],
-    "region": "Unknown",
-    "language": "English",
-    "status": "Offline",
-    "addedAt": "2026-10-30"
-  },
-  {
     "id": "project-epoch",
     "title": "Project Epoch",
     "description": "Community revival (Oct 2026) of the Vanilla+ server with 600+ new quests and new race/class combos.",
@@ -389,10 +371,31 @@
     "addedAt": "2026-10-30"
   },
   {
+    "id": "azeroth-idle",
+    "title": "Azeroth Idle",
+    "url": "https://azerothidle.com",
+    "image": "assets/logos/azeroth-idle.png",
+    "imageFit": "contain",
+    "type": "Playable Project",
+    "expansion": "Vanilla",
+    "version": "1.12.1",
+    "platform": "Browser · Windows",
+    "description": "Idle MMO on the 1.12 client: your hero quests and levels on one shared realm, even while you're away.",
+    "tags": [
+      "Fun",
+      "Idle",
+      "Browser"
+    ],
+    "region": "Global",
+    "language": "English",
+    "status": "Online",
+    "addedAt": "2026-10-30"
+  },
+  {
     "id": "world-of-kartcraft",
     "title": "World of Kartcraft",
     "description": "Crash Team Racing karts in WoW 1.12: drift through Azeroth or race on 200+ courses.",
-    "image": "assets/logos/world-of-kartcraft.jpg",
+    "image": "assets/logos/world-of-kartcraft.webp",
     "url": "https://worldofkartcraft.com",
     "type": "Playable Project",
     "expansion": "Vanilla",
@@ -405,13 +408,14 @@
     "region": "Global",
     "language": "English",
     "status": "Online",
-    "addedAt": "2026-10-30"
+    "addedAt": "2026-10-30",
+    "imageFit": "contain"
   },
   {
     "id": "world-of-skatecraft",
     "title": "World of Skatecraft",
     "description": "Skate 3 skateboarding in WoW 1.12: grind, flip and powerslide anywhere in Azeroth.",
-    "image": "assets/logos/world-of-skatecraft.jpg",
+    "image": "assets/logos/world-of-skatecraft.webp",
     "url": "https://github.com/Kimmo3223/world-of-skatecraft",
     "type": "Playable Project",
     "expansion": "Vanilla",
@@ -423,13 +427,14 @@
     "region": "Global",
     "language": "English",
     "status": "Online",
-    "addedAt": "2026-10-30"
+    "addedAt": "2026-10-30",
+    "imageFit": "contain"
   },
   {
     "id": "wowcraft",
     "title": "WowCraft",
     "description": "Minecraft movement, building and combat inside WoW 1.12, playable in co-op with friends.",
-    "image": "assets/logos/wowcraft.jpg",
+    "image": "assets/logos/wowcraft.webp",
     "url": "https://github.com/over825hp/wowcraft",
     "type": "Playable Project",
     "expansion": "Vanilla",
@@ -442,13 +447,14 @@
     "region": "Global",
     "language": "English",
     "status": "Online",
-    "addedAt": "2026-10-30"
+    "addedAt": "2026-10-30",
+    "imageFit": "contain"
   },
   {
     "id": "hordes-of-azeroth",
     "title": "Hordes of Azeroth",
     "description": "Survivors-style mode for WoW 1.12 with endless hordes and a choice at every level-up.",
-    "image": "assets/logos/hordes-of-azeroth.jpg",
+    "image": "assets/logos/hordes-of-azeroth.webp",
     "url": "https://github.com/jonhaldors/hordes-of-azeroth",
     "type": "Playable Project",
     "expansion": "Vanilla",
@@ -461,13 +467,14 @@
     "region": "Global",
     "language": "English",
     "status": "Online",
-    "addedAt": "2026-10-30"
+    "addedAt": "2026-10-30",
+    "imageFit": "contain"
   },
   {
     "id": "woba",
     "title": "Woba",
     "description": "Free 3v3 MOBA on the WoW 3.3.5a client, with heroes, lanes, towers and a jungle. In beta.",
-    "image": "assets/logos/woba.jpg",
+    "image": "assets/logos/woba.webp",
     "url": "https://moba.lol-reminder.fr",
     "type": "Playable Project",
     "expansion": "WotLK",
@@ -481,7 +488,8 @@
     "region": "Unknown",
     "language": "French",
     "status": "Unknown",
-    "addedAt": "2026-10-30"
+    "addedAt": "2026-10-30",
+    "imageFit": "contain"
   },
   {
     "id": "diablocraft",
@@ -506,7 +514,7 @@
     "id": "wowpocalypse",
     "title": "WoWPocalypse",
     "url": "https://github.com/nesh1905/WoWPocalypse",
-    "image": null,
+    "image": "assets/logos/wowpocalypse.webp",
     "type": "Playable Project",
     "expansion": "Vanilla",
     "version": "1.12.1",
@@ -519,7 +527,8 @@
     "region": "Global",
     "language": "English",
     "status": "Online",
-    "addedAt": "2026-10-30"
+    "addedAt": "2026-10-30",
+    "imageFit": "contain"
   },
   {
     "id": "leyline",
