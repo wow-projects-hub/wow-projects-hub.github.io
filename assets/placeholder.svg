@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" width="320" height="180" role="img" aria-label="Placeholder image">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3a3170"/>
+      <stop offset="1" stop-color="#14122b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.3" cy="0.2" r="0.7">
+      <stop offset="0" stop-color="#a594ff" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#a594ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="320" height="180" fill="url(#bg)"/>
+  <rect width="320" height="180" fill="url(#glow)"/>
+  <text x="160" y="90" text-anchor="middle" dominant-baseline="central"
+        font-family="Inter, Segoe UI, Roboto, sans-serif" font-size="56" font-weight="700"
+        letter-spacing="-2" fill="#ffffff" fill-opacity="0.9">WoW</text>
+</svg>
