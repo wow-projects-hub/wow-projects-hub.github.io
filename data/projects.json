@@ -68,7 +68,7 @@
     "id": "rising-gods",
     "title": "Rising Gods",
     "description": "Long-running German WotLK server: Blizzlike with custom tweaks, 1x or 2x XP and a small TBC realm.",
-    "image": null,
+    "image": "assets/logos/rising-gods.webp",
     "url": "https://www.rising-gods.de",
     "type": "Private Server",
     "expansion": "WotLK",
@@ -83,7 +83,8 @@
     "language": "German",
     "rates": "x1 / x2",
     "status": "Online",
-    "addedAt": "2026-10-30"
+    "addedAt": "2026-10-30",
+    "imageFit": "contain"
   },
   {
     "id": "tauri-wow",
@@ -100,26 +101,6 @@
     "region": "EU",
     "language": "English",
     "status": "Online",
-    "addedAt": "2026-10-30"
-  },
-  {
-    "id": "turtle-wow",
-    "title": "Turtle WoW",
-    "description": "Vanilla server famous for new zones, races and quests. Shut down in May 2026 after a Blizzard lawsuit.",
-    "image": null,
-    "url": "https://turtle-wow.org",
-    "type": "Private Server",
-    "expansion": "Vanilla",
-    "version": "1.12.1",
-    "customContent": "Yes",
-    "tags": [
-      "Custom Content",
-      "Fun",
-      "Hardcore"
-    ],
-    "region": "Unknown",
-    "language": "English",
-    "status": "Offline",
     "addedAt": "2026-10-30"
   },
   {
@@ -143,20 +124,107 @@
   {
     "id": "project-epoch",
     "title": "Project Epoch",
-    "description": "Vanilla+ server with 600+ new quests and new race/class combos. Closed in September 2026.",
-    "image": null,
-    "url": "https://www.project-epoch.net",
+    "description": "Community revival (Oct 2026) of the Vanilla+ server with 600+ new quests and new race/class combos.",
+    "image": "assets/logos/project-epoch.webp",
+    "url": "https://project-epoch.org",
     "type": "Private Server",
     "expansion": "Vanilla",
-    "version": "3.3.5a client",
+    "version": "3.3.5a",
     "customContent": "Yes",
     "tags": [
       "Custom Content"
     ],
     "region": "Unknown",
     "language": "English",
-    "status": "Offline",
-    "addedAt": "2026-10-30"
+    "status": "Online",
+    "addedAt": "2026-10-30",
+    "imageFit": "contain"
+  },
+  {
+    "type": "Private Server",
+    "imageFit": "contain",
+    "region": "Unknown",
+    "language": "English",
+    "status": "Online",
+    "addedAt": "2026-10-30",
+    "customContent": "Yes",
+    "id": "octowow",
+    "title": "OctoWoW",
+    "url": "https://octowow.st",
+    "image": "assets/logos/octowow.webp",
+    "expansion": "Vanilla",
+    "version": "1.12.1",
+    "description": "Turtle WoW successor: Vanilla+ with High Elves, Goblins and Turtle's custom zones and dungeons.",
+    "players": 3000,
+    "playersCheckedAt": "2026-10-30",
+    "playersNote": "estimate from Private Server Hub",
+    "tags": [
+      "Custom Content",
+      "Fun"
+    ]
+  },
+  {
+    "type": "Private Server",
+    "imageFit": "contain",
+    "region": "Unknown",
+    "language": "English",
+    "status": "Online",
+    "addedAt": "2026-10-30",
+    "customContent": "Yes",
+    "id": "grimfall",
+    "title": "GrimfallWoW",
+    "url": "https://www.grimfallwow.com",
+    "image": "assets/logos/grimfall.webp",
+    "expansion": "Vanilla",
+    "version": "3.3.5a",
+    "description": "Classless level-60 realm plus a revived Conquest of Azeroth realm with 21 custom classes.",
+    "tags": [
+      "Custom Content",
+      "Fun"
+    ]
+  },
+  {
+    "type": "Private Server",
+    "imageFit": "contain",
+    "region": "Unknown",
+    "language": "English",
+    "status": "Online",
+    "addedAt": "2026-10-30",
+    "customContent": "Yes",
+    "id": "triumvirate",
+    "title": "Triumvirate",
+    "url": "https://www.triumvirate-wow.com",
+    "image": "assets/logos/triumvirate.webp",
+    "expansion": "WotLK",
+    "version": "3.3.5a",
+    "description": "Custom WotLK server: one level-60 endgame across three worlds, with Mythic+, artifacts and flex raids.",
+    "players": 300,
+    "playersCheckedAt": "2026-10-30",
+    "rates": "x1–x3",
+    "tags": [
+      "Custom Content"
+    ]
+  },
+  {
+    "type": "Private Server",
+    "imageFit": "contain",
+    "region": "Unknown",
+    "language": "English",
+    "status": "Online",
+    "addedAt": "2026-10-30",
+    "customContent": "Yes",
+    "id": "coa-development",
+    "title": "Conquest of AzerothCore",
+    "url": "https://coa-development.org",
+    "image": "assets/logos/coa-development.webp",
+    "expansion": "Vanilla",
+    "version": "3.3.5a",
+    "description": "Rebuilds Conquest of Azeroth's 21 custom classes on AzerothCore. Public test realms, resets possible.",
+    "players": 126,
+    "playersCheckedAt": "2026-10-30",
+    "tags": [
+      "Custom Content"
+    ]
   },
   {
     "id": "azerothcore",
@@ -348,6 +416,44 @@
     "region": "Unknown",
     "language": "French",
     "status": "Unknown",
+    "addedAt": "2026-10-30"
+  },
+  {
+    "id": "diablocraft",
+    "title": "Diablocraft",
+    "url": "https://github.com/Calmoran/mod-diablocraft",
+    "image": null,
+    "type": "Playable Project",
+    "expansion": "WotLK",
+    "version": "3.3.5a",
+    "platform": "Self-hosted (AzerothCore)",
+    "description": "Diablo III on a WotLK server: Greater Rifts, D3 loot and classes. Unfinished, released open source.",
+    "tags": [
+      "Fun",
+      "Custom Content"
+    ],
+    "region": "Global",
+    "language": "English",
+    "status": "Unknown",
+    "addedAt": "2026-10-30"
+  },
+  {
+    "id": "wowpocalypse",
+    "title": "WoWPocalypse",
+    "url": "https://github.com/nesh1905/WoWPocalypse",
+    "image": null,
+    "type": "Playable Project",
+    "expansion": "Vanilla",
+    "version": "1.12.1",
+    "platform": "Browser · Windows",
+    "description": "Zombie survival, building and crafting inside the Vanilla WoW client. Play in the browser or download.",
+    "tags": [
+      "Fun",
+      "Survival"
+    ],
+    "region": "Global",
+    "language": "English",
+    "status": "Online",
     "addedAt": "2026-10-30"
   }
 ]

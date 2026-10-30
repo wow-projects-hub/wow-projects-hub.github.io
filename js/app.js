@@ -283,7 +283,8 @@
       addBadge(badges, 'Status', p.status, `status status-${slugClass(p.status || 'unknown')}`);
       addBadge(badges, 'Version', p.version, 'badge-accent');
       if (p.status !== 'Offline') {
-        addBadge(badges, `Players online (checked ${p.playersCheckedAt || 'unknown date'})`, formatPlayers(p.players));
+        const source = p.playersNote ? `, ${p.playersNote}` : '';
+        addBadge(badges, `Players online (checked ${p.playersCheckedAt || 'unknown date'}${source})`, formatPlayers(p.players));
       }
       addBadge(badges, 'Custom content', CUSTOM_LABELS[p.customContent] || 'Custom content: ?');
       if (p.language && p.language !== 'English') addBadge(badges, 'Language', p.language);
