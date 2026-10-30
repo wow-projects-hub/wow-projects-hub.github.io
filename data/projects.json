@@ -90,7 +90,7 @@
     "id": "tauri-wow",
     "title": "Tauri WoW",
     "description": "Hungarian-run private server network, best known for its Mists of Pandaria realm.",
-    "image": null,
+    "image": "assets/logos/tauri-wow.webp",
     "url": "https://tauriwow.com",
     "type": "Private Server",
     "expansion": "MoP",
@@ -101,7 +101,8 @@
     "region": "EU",
     "language": "English",
     "status": "Online",
-    "addedAt": "2026-10-30"
+    "addedAt": "2026-10-30",
+    "imageFit": "contain"
   },
   {
     "id": "project-epoch",
@@ -495,7 +496,7 @@
     "id": "diablocraft",
     "title": "Diablocraft",
     "url": "https://github.com/Calmoran/mod-diablocraft",
-    "image": null,
+    "image": "assets/logos/diablocraft.webp",
     "type": "Playable Project",
     "expansion": "WotLK",
     "version": "3.3.5a",
@@ -508,7 +509,8 @@
     "region": "Global",
     "language": "English",
     "status": "Unknown",
-    "addedAt": "2026-10-30"
+    "addedAt": "2026-10-30",
+    "imageFit": "contain"
   },
   {
     "id": "wowpocalypse",
@@ -553,7 +555,7 @@
     "id": "arena-of-champions",
     "title": "Arena of Champions",
     "url": "https://arenaofchampions.live",
-    "image": "assets/logos/arena-of-champions.jpg",
+    "image": "assets/logos/arena-of-champions.webp",
     "type": "Playable Project",
     "expansion": "Unknown",
     "platform": "Browser · Windows",
@@ -566,7 +568,8 @@
     "region": "Global",
     "language": "English",
     "status": "Online",
-    "addedAt": "2026-10-30"
+    "addedAt": "2026-10-30",
+    "imageFit": "contain"
   },
   {
     "id": "webwow",
@@ -592,7 +595,7 @@
     "id": "spires-of-azeroth",
     "title": "Spires of Azeroth",
     "url": "https://thewowdb.com/spiresofazeroth/",
-    "image": "assets/logos/spires-of-azeroth.jpg",
+    "image": "assets/logos/spires-of-azeroth.webp",
     "type": "Playable Project",
     "expansion": "Vanilla",
     "platform": "Browser",
@@ -605,7 +608,8 @@
     "region": "Global",
     "language": "English",
     "status": "Online",
-    "addedAt": "2026-10-30"
+    "addedAt": "2026-10-30",
+    "imageFit": "contain"
   },
   {
     "id": "warcraft-tactics",
