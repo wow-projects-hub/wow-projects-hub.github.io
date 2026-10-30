@@ -1,12 +1,117 @@
 [
   {
+    "id": "chromiecraft",
+    "title": "ChromieCraft",
+    "description": "Progressive WotLK realm on AzerothCore that unlocks content step by step, up to Northrend.",
+    "image": "assets/logos/chromiecraft.webp",
+    "imageFit": "contain",
+    "url": "https://www.chromiecraft.com",
+    "type": "Private Server",
+    "expansion": "WotLK",
+    "version": "3.3.5a",
+    "players": 610,
+    "playersCheckedAt": "2026-10-30",
+    "customContent": "No",
+    "tags": [
+      "Blizzlike",
+      "Progressive"
+    ],
+    "region": "Unknown",
+    "language": "English",
+    "status": "Online",
+    "addedAt": "2026-10-30"
+  },
+  {
+    "id": "warmane",
+    "title": "Warmane",
+    "description": "One of the largest and longest-running private server networks, best known for its WotLK realms.",
+    "image": "assets/logos/warmane.webp",
+    "imageFit": "contain",
+    "url": "https://www.warmane.com",
+    "type": "Private Server",
+    "expansion": "WotLK",
+    "version": "3.3.5a",
+    "players": 16800,
+    "playersCheckedAt": "2026-10-30",
+    "customContent": "No",
+    "tags": [
+      "Blizzlike",
+      "PvP"
+    ],
+    "region": "Unknown",
+    "language": "English",
+    "status": "Online",
+    "addedAt": "2026-10-30"
+  },
+  {
+    "id": "firestorm",
+    "title": "Firestorm",
+    "description": "Runs a retail realm (The War Within), a seasonal BfA: Reforged realm and some legacy realms.",
+    "image": "assets/logos/firestorm.webp",
+    "imageFit": "contain",
+    "url": "https://firestorm-servers.com",
+    "type": "Private Server",
+    "expansion": "Multiple",
+    "version": "11.x · 8.1",
+    "players": 1360,
+    "playersCheckedAt": "2026-10-30",
+    "customContent": "Some",
+    "tags": [
+      "Blizzlike"
+    ],
+    "region": "Unknown",
+    "language": "English",
+    "status": "Online",
+    "addedAt": "2026-10-30"
+  },
+  {
+    "id": "rising-gods",
+    "title": "Rising Gods",
+    "description": "Long-running German WotLK server: Blizzlike with custom tweaks, 1x or 2x XP and a small TBC realm.",
+    "image": null,
+    "url": "https://www.rising-gods.de",
+    "type": "Private Server",
+    "expansion": "WotLK",
+    "version": "3.3.5a",
+    "players": 680,
+    "playersCheckedAt": "2026-10-30",
+    "customContent": "Some",
+    "tags": [
+      "Blizzlike"
+    ],
+    "region": "EU",
+    "language": "German",
+    "rates": "x1 / x2",
+    "status": "Online",
+    "addedAt": "2026-10-30"
+  },
+  {
+    "id": "tauri-wow",
+    "title": "Tauri WoW",
+    "description": "Hungarian-run private server network, best known for its Mists of Pandaria realm.",
+    "image": null,
+    "url": "https://tauriwow.com",
+    "type": "Private Server",
+    "expansion": "MoP",
+    "version": "5.4.8",
+    "tags": [
+      "Blizzlike"
+    ],
+    "region": "EU",
+    "language": "English",
+    "status": "Online",
+    "addedAt": "2026-10-30"
+  },
+  {
     "id": "turtle-wow",
     "title": "Turtle WoW",
-    "description": "A Vanilla-based server known for extensive custom content such as new zones, quests and playable races, plus optional challenge modes.",
+    "description": "Vanilla server famous for new zones, races and quests. Shut down in May 2026 after a Blizzard lawsuit.",
     "image": null,
     "url": "https://turtle-wow.org",
     "type": "Private Server",
     "expansion": "Vanilla",
+    "version": "1.12.1",
+    "customContent": "Yes",
     "tags": [
       "Custom Content",
       "Fun",
@@ -14,131 +119,55 @@
     ],
     "region": "Unknown",
     "language": "English",
-    "status": "Unknown",
-    "addedAt": "2026-10-30"
-  },
-  {
-    "id": "warmane",
-    "title": "Warmane",
-    "description": "One of the largest and longest-running private server communities, best known for its Wrath of the Lich King realms.",
-    "image": null,
-    "url": "https://www.warmane.com",
-    "type": "Private Server",
-    "expansion": "WotLK",
-    "tags": [
-      "Blizzlike",
-      "PvP"
-    ],
-    "region": "Unknown",
-    "language": "English",
-    "status": "Unknown",
-    "addedAt": "2026-10-30"
-  },
-  {
-    "id": "chromiecraft",
-    "title": "ChromieCraft",
-    "description": "A progressive Wrath of the Lich King realm running on AzerothCore that unlocks content step by step, starting with Vanilla-era level brackets.",
-    "image": null,
-    "url": "https://www.chromiecraft.com",
-    "type": "Private Server",
-    "expansion": "WotLK",
-    "tags": [
-      "Blizzlike",
-      "Progressive"
-    ],
-    "region": "Unknown",
-    "language": "English",
-    "status": "Unknown",
-    "addedAt": "2026-10-30"
-  },
-  {
-    "id": "project-epoch",
-    "title": "Project Epoch",
-    "description": "A classic-era server that expands the original game with new custom quests and content while keeping a Vanilla feel.",
-    "image": null,
-    "url": "https://www.project-epoch.net",
-    "type": "Private Server",
-    "expansion": "Vanilla",
-    "tags": [
-      "Custom Content"
-    ],
-    "region": "Unknown",
-    "language": "English",
-    "status": "Unknown",
-    "addedAt": "2026-10-30"
-  },
-  {
-    "id": "firestorm",
-    "title": "Firestorm",
-    "description": "A private server network hosting realms for several different WoW expansions.",
-    "image": null,
-    "url": "https://firestorm-servers.com",
-    "type": "Private Server",
-    "expansion": "Multiple",
-    "tags": [
-      "Blizzlike"
-    ],
-    "region": "Unknown",
-    "language": "English",
-    "status": "Unknown",
+    "status": "Offline",
     "addedAt": "2026-10-30"
   },
   {
     "id": "stormforge",
     "title": "Stormforge",
-    "description": "A private server project running realms for more than one expansion, with a focus on Blizzlike gameplay.",
+    "description": "Blizzlike TBC and MoP realms. Closed in May 2026 after a cease-and-desist from Blizzard.",
     "image": null,
     "url": "https://stormforge.gg",
     "type": "Private Server",
     "expansion": "Multiple",
+    "version": "2.4.3 · 5.4.8",
+    "customContent": "No",
     "tags": [
       "Blizzlike"
     ],
     "region": "Unknown",
     "language": "English",
-    "status": "Unknown",
+    "status": "Offline",
     "addedAt": "2026-10-30"
   },
   {
-    "id": "rising-gods",
-    "title": "Rising Gods",
-    "description": "A long-standing German-speaking Wrath of the Lich King server with a large community.",
+    "id": "project-epoch",
+    "title": "Project Epoch",
+    "description": "Vanilla+ server with 600+ new quests and new race/class combos. Closed in September 2026.",
     "image": null,
-    "url": "https://www.rising-gods.de",
+    "url": "https://www.project-epoch.net",
     "type": "Private Server",
-    "expansion": "WotLK",
+    "expansion": "Vanilla",
+    "version": "3.3.5a client",
+    "customContent": "Yes",
     "tags": [
-      "Blizzlike"
-    ],
-    "region": "EU",
-    "language": "German",
-    "status": "Unknown",
-    "addedAt": "2026-10-30"
-  },
-  {
-    "id": "tauri-wow",
-    "title": "Tauri WoW",
-    "description": "A private server project best known for its Mists of Pandaria realms.",
-    "image": null,
-    "url": "https://tauriwow.com",
-    "type": "Private Server",
-    "expansion": "MoP",
-    "tags": [
-      "Blizzlike"
+      "Custom Content"
     ],
     "region": "Unknown",
     "language": "English",
-    "status": "Unknown",
+    "status": "Offline",
     "addedAt": "2026-10-30"
   },
   {
     "id": "azerothcore",
     "title": "AzerothCore",
-    "description": "An open-source, modular server emulator for Wrath of the Lich King (3.3.5a), designed to be extended through community modules.",
-    "image": null,
+    "description": "Open-source, modular WotLK emulator, extended with community modules instead of core edits.",
+    "image": "assets/logos/azerothcore.webp",
+    "imageFit": "contain",
     "url": "https://www.azerothcore.org",
     "type": "Server Emulator",
     "expansion": "WotLK",
+    "version": "3.3.5a",
     "tags": [
       "Emulator",
       "Open Source"
@@ -151,11 +180,13 @@
   {
     "id": "trinitycore",
     "title": "TrinityCore",
-    "description": "A widely used open-source MMORPG server framework, with branches for Wrath of the Lich King and newer game clients.",
-    "image": null,
+    "description": "Popular open-source server framework with a WotLK branch and one that follows newer game clients.",
+    "image": "assets/logos/trinitycore.webp",
+    "imageFit": "contain",
     "url": "https://www.trinitycore.org",
     "type": "Server Emulator",
     "expansion": "Multiple",
+    "version": "3.3.5a · retail",
     "tags": [
       "Emulator",
       "Open Source"
@@ -168,11 +199,13 @@
   {
     "id": "cmangos",
     "title": "CMaNGOS",
-    "description": "Continued MaNGOS: an open-source server emulator with separate cores for Classic, The Burning Crusade and Wrath of the Lich King.",
-    "image": null,
+    "description": "Continued MaNGOS: open-source emulator with separate cores for Classic, TBC and WotLK.",
+    "image": "assets/logos/cmangos.webp",
+    "imageFit": "contain",
     "url": "https://cmangos.net",
     "type": "Server Emulator",
     "expansion": "Multiple",
+    "version": "1.12.1 · 2.4.3 · 3.3.5a",
     "tags": [
       "Emulator",
       "Open Source"
@@ -185,11 +218,13 @@
   {
     "id": "vmangos",
     "title": "VMaNGOS",
-    "description": "An open-source Vanilla server emulator that aims to recreate the game as it was during each patch from 1.2 to 1.12.",
-    "image": null,
+    "description": "Open-source Vanilla emulator that recreates the game patch by patch, from 1.2 up to 1.12.",
+    "image": "assets/logos/vmangos.webp",
+    "imageFit": "contain",
     "url": "https://github.com/vmangos/core",
     "type": "Server Emulator",
     "expansion": "Vanilla",
+    "version": "1.12.1",
     "tags": [
       "Emulator",
       "Open Source",
@@ -201,17 +236,94 @@
     "addedAt": "2026-10-30"
   },
   {
+    "id": "azeroth-survivors",
+    "title": "Azeroth Survivors",
+    "description": "Vampire Survivors-style roguelike on a from-scratch WoW 1.12 client. Plays in the browser or on Windows.",
+    "image": "assets/logos/azeroth-survivors.webp",
+    "imageFit": "contain",
+    "url": "https://wow.aethus.pl",
+    "type": "Playable Project",
+    "expansion": "Vanilla",
+    "version": "1.12.1",
+    "platform": "Browser · Windows",
+    "tags": [
+      "Fun",
+      "Roguelike"
+    ],
+    "region": "Global",
+    "language": "English",
+    "status": "Online",
+    "addedAt": "2026-10-30"
+  },
+  {
     "id": "world-of-kartcraft",
     "title": "World of Kartcraft",
-    "description": "A fan project that brings Crash Team Racing-style karting into WoW 1.12: drift through Azeroth or race on 200+ courses. Requires your own WoW and CTR game files.",
-    "image": null,
+    "description": "Crash Team Racing karts in WoW 1.12: drift through Azeroth or race on 200+ courses.",
+    "image": "assets/logos/world-of-kartcraft.jpg",
     "url": "https://worldofkartcraft.com",
     "type": "Playable Project",
     "expansion": "Vanilla",
+    "version": "1.12.1",
+    "platform": "Windows",
     "tags": [
       "Fun",
-      "Custom Content",
       "Racing"
+    ],
+    "region": "Global",
+    "language": "English",
+    "status": "Online",
+    "addedAt": "2026-10-30"
+  },
+  {
+    "id": "world-of-skatecraft",
+    "title": "World of Skatecraft",
+    "description": "Skate 3 skateboarding in WoW 1.12: grind, flip and powerslide anywhere in Azeroth.",
+    "image": "assets/logos/world-of-skatecraft.jpg",
+    "url": "https://github.com/Kimmo3223/world-of-skatecraft",
+    "type": "Playable Project",
+    "expansion": "Vanilla",
+    "version": "1.12.1",
+    "platform": "Linux · Windows (beta)",
+    "tags": [
+      "Fun"
+    ],
+    "region": "Global",
+    "language": "English",
+    "status": "Online",
+    "addedAt": "2026-10-30"
+  },
+  {
+    "id": "wowcraft",
+    "title": "WowCraft",
+    "description": "Minecraft movement, building and combat inside WoW 1.12, playable in co-op with friends.",
+    "image": "assets/logos/wowcraft.jpg",
+    "url": "https://github.com/over825hp/wowcraft",
+    "type": "Playable Project",
+    "expansion": "Vanilla",
+    "version": "1.12.1",
+    "platform": "Windows",
+    "tags": [
+      "Fun",
+      "Co-op"
+    ],
+    "region": "Global",
+    "language": "English",
+    "status": "Online",
+    "addedAt": "2026-10-30"
+  },
+  {
+    "id": "hordes-of-azeroth",
+    "title": "Hordes of Azeroth",
+    "description": "Survivors-style mode for WoW 1.12 with endless hordes and a choice at every level-up.",
+    "image": "assets/logos/hordes-of-azeroth.jpg",
+    "url": "https://github.com/jonhaldors/hordes-of-azeroth",
+    "type": "Playable Project",
+    "expansion": "Vanilla",
+    "version": "1.12.1",
+    "platform": "Windows · Linux",
+    "tags": [
+      "Fun",
+      "Roguelike"
     ],
     "region": "Global",
     "language": "English",
@@ -221,15 +333,16 @@
   {
     "id": "woba",
     "title": "Woba",
-    "description": "A free, non-commercial 3v3 MOBA that runs on the WoW 3.3.5a client, with MOBA rules added on the server side. Currently in beta.",
-    "image": null,
+    "description": "Free 3v3 MOBA on the WoW 3.3.5a client, with heroes, lanes, towers and a jungle. In beta.",
+    "image": "assets/logos/woba.jpg",
     "url": "https://moba.lol-reminder.fr",
     "type": "Playable Project",
     "expansion": "WotLK",
+    "version": "3.3.5a",
+    "platform": "Windows · Linux",
     "tags": [
       "Fun",
       "PvP",
-      "Custom Content",
       "MOBA"
     ],
     "region": "Unknown",

@@ -391,6 +391,16 @@ main { flex: 1; padding-block: var(--space-5) var(--space-7); }
 }
 .card-media img { width: 100%; height: 100%; object-fit: cover; }
 
+/* Logos: centred on a soft tinted panel instead of cropped */
+.card-media.is-logo {
+  --ph-hue: 250;
+  position: relative;
+  background:
+    radial-gradient(circle at 50% 40%, hsla(var(--ph-hue), 70%, 60%, 0.22), transparent 70%),
+    linear-gradient(135deg, hsl(var(--ph-hue), 30%, 16%), hsl(calc(var(--ph-hue) + 20), 30%, 9%));
+}
+.card-media.is-logo img { position: absolute; inset: 12px; width: calc(100% - 24px); height: calc(100% - 24px); object-fit: contain; }
+
 .placeholder {
   --ph-hue: 250;
   display: grid;
@@ -422,12 +432,13 @@ main { flex: 1; padding-block: var(--space-5) var(--space-7); }
   font-size: 0.85rem;
   line-height: 1.45;
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  min-height: calc(1.45em * 4); /* keeps cards in a row aligned */
 }
 
-.badges, .tags {
+.badges {
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
@@ -461,8 +472,7 @@ main { flex: 1; padding-block: var(--space-5) var(--space-7); }
 .status-online::before { background: var(--ok); box-shadow: 0 0 8px var(--ok); }
 .status-offline::before { background: var(--bad); }
 
-.tags { margin-top: auto; }
-.tags li { font-size: 0.75rem; color: var(--text-faint); }
+.badges { margin-top: auto; }
 
 .card-actions { padding: var(--space-3) var(--space-4) var(--space-4); }
 .card-actions .btn { width: 100%; }
@@ -486,6 +496,7 @@ main { flex: 1; padding-block: var(--space-5) var(--space-7); }
   border-right: 1px solid var(--surface-border);
 }
 .results.list .placeholder { font-size: 1.2rem; }
+.results.list .card-media.is-logo img { inset: 6px; width: calc(100% - 12px); height: calc(100% - 12px); }
 
 .results.list .card-body {
   display: grid;
@@ -495,9 +506,8 @@ main { flex: 1; padding-block: var(--space-5) var(--space-7); }
   padding: var(--space-2) var(--space-4);
 }
 .results.list .card-title { font-size: 0.98rem; }
-.results.list .card-desc { -webkit-line-clamp: 2; }
+.results.list .card-desc { -webkit-line-clamp: 2; min-height: 0; }
 .results.list .badges { flex-wrap: nowrap; justify-content: flex-end; }
-.results.list .tags { display: none; }
 .results.list .card-actions { padding: var(--space-2) var(--space-4); }
 .results.list .card-actions .btn { width: auto; }
 

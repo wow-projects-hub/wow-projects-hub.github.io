@@ -109,6 +109,15 @@
     return String(value).toLowerCase().replace(/[^a-z0-9]+/g, '-');
   }
 
+  const CUSTOM_LABELS = { Yes: 'Custom content', Some: 'Some custom content', No: 'Blizzlike' };
+
+  // 16800 -> "~16,800 online"; missing -> "Players: ?"
+  function formatPlayers(n) {
+    if (typeof n !== 'number') return 'Players: ?';
+    const rounded = n >= 1000 ? Math.round(n / 100) * 100 : Math.round(n / 10) * 10;
+    return `~${rounded.toLocaleString('en-US')} online`;
+  }
+
   function expansionRank(exp) {
     const i = EXPANSION_ORDER.indexOf(exp);
     return i === -1 ? EXPANSION_ORDER.length : i;
@@ -193,7 +202,7 @@
   function matchesFilters(p) {
     if (state.q) {
       const q = state.q.toLowerCase();
-      const hay = [p.title, p.description, ...(p.tags || [])].join(' ').toLowerCase();
+      const hay = [p.title, p.description, p.version, p.platform, ...(p.tags || [])].join(' ').toLowerCase();
       if (!q.split(/\s+/).every((term) => hay.includes(term))) return false;
     }
     for (const k of FILTER_KEYS) {
@@ -204,6 +213,9 @@
   }
 
   function compare(a, b) {
+    // Closed projects always go to the end, whatever the sort order.
+    const offline = (a.status === 'Offline') - (b.status === 'Offline');
+    if (offline) return offline;
     const byName = a.title.localeCompare(b.title, undefined, { sensitivity: 'base' });
     switch (state.sort) {
       case 'name-desc': return -byName;
@@ -218,6 +230,11 @@
 
   function renderMedia(container, p) {
     if (p.image) {
+      // Logos sit centred on a tinted panel; screenshots fill the frame.
+      if (p.imageFit === 'contain') {
+        container.classList.add('is-logo');
+        container.style.setProperty('--ph-hue', hueFor(p.id || p.title));
+      }
       const img = document.createElement('img');
       img.src = p.image;
       img.alt = `${p.title} logo`;
@@ -262,19 +279,18 @@
     desc.title = p.description || '';
 
     const badges = node.querySelector('.badges');
-    addBadge(badges, 'Status', p.status, `status status-${slugClass(p.status || 'unknown')}`);
-    addBadge(badges, 'Type', p.type, 'badge-accent');
-    addBadge(badges, 'Expansion', p.expansion);
-    addBadge(badges, 'Region', p.region);
-    if (p.language && p.language !== 'English') addBadge(badges, 'Language', p.language);
-    addBadge(badges, 'Rates', p.rates);
-
-    const tags = node.querySelector('.tags');
-    (p.tags || []).forEach((t) => {
-      const li = document.createElement('li');
-      li.textContent = `#${t}`;
-      tags.appendChild(li);
-    });
+    if (p.type === 'Private Server') {
+      addBadge(badges, 'Status', p.status, `status status-${slugClass(p.status || 'unknown')}`);
+      addBadge(badges, 'Version', p.version, 'badge-accent');
+      if (p.status !== 'Offline') {
+        addBadge(badges, `Players online (checked ${p.playersCheckedAt || 'unknown date'})`, formatPlayers(p.players));
+      }
+      addBadge(badges, 'Custom content', CUSTOM_LABELS[p.customContent] || 'Custom content: ?');
+      if (p.language && p.language !== 'English') addBadge(badges, 'Language', p.language);
+    } else {
+      addBadge(badges, 'Version', p.version, 'badge-accent');
+      addBadge(badges, 'Platform', p.platform);
+    }
 
     const link = node.querySelector('.visit');
     link.href = p.url;
