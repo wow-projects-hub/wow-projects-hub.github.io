@@ -227,6 +227,71 @@
     ]
   },
   {
+    "id": "hyjal",
+    "title": "Hyjal",
+    "url": "https://hyjal.gg",
+    "image": "assets/logos/hyjal.jpg",
+    "type": "Private Server",
+    "expansion": "Vanilla",
+    "version": "WoW Forever",
+    "description": "Recreation of WoW Forever (Classic+) in beta. Pick 1x–5x rates, use dungeon bots or try 1x Lone Wolf.",
+    "players": 30,
+    "playersCheckedAt": "2026-10-30",
+    "customContent": "Some",
+    "rates": "x1–x5",
+    "tags": [
+      "Custom Rates",
+      "Bots"
+    ],
+    "region": "Unknown",
+    "language": "English",
+    "status": "Online",
+    "addedAt": "2026-10-30"
+  },
+  {
+    "id": "lasthavens",
+    "title": "Lasthavens",
+    "url": "https://lasthavens.com",
+    "image": "assets/logos/lasthavens.jpg",
+    "type": "Private Server",
+    "expansion": "WotLK",
+    "version": "3.3.5a",
+    "description": "WotLK realm that runs in a browser tab on PC, Mac, Chromebook and phones. No client download, 2x XP PvP.",
+    "playersCheckedAt": "2026-10-30",
+    "customContent": "Unknown",
+    "rates": "x2",
+    "tags": [
+      "Browser",
+      "PvP"
+    ],
+    "region": "Unknown",
+    "language": "English",
+    "status": "Online",
+    "addedAt": "2026-10-30"
+  },
+  {
+    "id": "jankcraft",
+    "title": "Jankcraft",
+    "url": "https://jankcraft.xyz",
+    "image": "assets/logos/jankcraft.webp",
+    "imageFit": "contain",
+    "type": "Private Server",
+    "expansion": "WotLK",
+    "version": "Unknown",
+    "description": "Custom WotLK alpha you play in the browser or on mobile. Optional AI agents can plan or play for you.",
+    "playersCheckedAt": "2026-10-30",
+    "customContent": "Yes",
+    "tags": [
+      "Browser",
+      "Custom Content",
+      "AI"
+    ],
+    "region": "Unknown",
+    "language": "English",
+    "status": "Online",
+    "addedAt": "2026-10-30"
+  },
+  {
     "id": "azerothcore",
     "title": "AzerothCore",
     "description": "Open-source, modular WotLK emulator, extended with community modules instead of core edits.",
@@ -450,6 +515,101 @@
     "tags": [
       "Fun",
       "Survival"
+    ],
+    "region": "Global",
+    "language": "English",
+    "status": "Online",
+    "addedAt": "2026-10-30"
+  },
+  {
+    "id": "leyline",
+    "title": "Leyline (OpenVanilla)",
+    "url": "https://openvanilla.app",
+    "image": "assets/logos/leyline.jpg",
+    "type": "Playable Project",
+    "expansion": "Multiple",
+    "version": "1.12.1 · 3.3.5a",
+    "platform": "Browser · Windows · macOS · Linux",
+    "description": "Open-source launcher and realm network: Vanilla and Wrath in the browser, mods, and realms you host.",
+    "tags": [
+      "Browser",
+      "Open Source"
+    ],
+    "region": "Global",
+    "language": "English",
+    "status": "Online",
+    "addedAt": "2026-10-30"
+  },
+  {
+    "id": "arena-of-champions",
+    "title": "Arena of Champions",
+    "url": "https://arenaofchampions.live",
+    "image": "assets/logos/arena-of-champions.jpg",
+    "type": "Playable Project",
+    "expansion": "Unknown",
+    "platform": "Browser · Windows",
+    "description": "Fan-made WoW-style arena PvP: nine classes in 1v1, 2v2 and 3v3. Play as a guest in the browser.",
+    "tags": [
+      "Fun",
+      "PvP",
+      "Arena"
+    ],
+    "region": "Global",
+    "language": "English",
+    "status": "Online",
+    "addedAt": "2026-10-30"
+  },
+  {
+    "id": "webwow",
+    "title": "WebWoW",
+    "url": "https://webwow.world",
+    "image": "assets/logos/webwow.webp",
+    "imageFit": "contain",
+    "type": "Playable Project",
+    "expansion": "Unknown",
+    "platform": "Browser",
+    "description": "WoW PvP in the browser: duels and 2v2 arena with nine classes and a leaderboard. Guest play.",
+    "tags": [
+      "Fun",
+      "PvP",
+      "Arena"
+    ],
+    "region": "Global",
+    "language": "English",
+    "status": "Online",
+    "addedAt": "2026-10-30"
+  },
+  {
+    "id": "spires-of-azeroth",
+    "title": "Spires of Azeroth",
+    "url": "https://thewowdb.com/spiresofazeroth/",
+    "image": "assets/logos/spires-of-azeroth.jpg",
+    "type": "Playable Project",
+    "expansion": "Vanilla",
+    "platform": "Browser",
+    "description": "Classic WoW roguelike deckbuilder: nine classes with vanilla spells, raid bosses and co-op.",
+    "tags": [
+      "Fun",
+      "Roguelike",
+      "Card Game"
+    ],
+    "region": "Global",
+    "language": "English",
+    "status": "Online",
+    "addedAt": "2026-10-30"
+  },
+  {
+    "id": "warcraft-tactics",
+    "title": "Warcraft Tactics",
+    "url": "https://warcrafttactics.com",
+    "image": "assets/logos/warcraft-tactics.jpg",
+    "type": "Playable Project",
+    "expansion": "Unknown",
+    "platform": "Browser · Windows · macOS",
+    "description": "Warcraft auto-battler: recruit faction armies, set formations and watch the fights play out.",
+    "tags": [
+      "Fun",
+      "Strategy"
     ],
     "region": "Global",
     "language": "English",
