@@ -12,9 +12,10 @@
   const CATEGORIES = [
     { type: 'Private Server', label: 'Private Servers', slug: 'servers' },
     { type: 'Server Emulator', label: 'Server Emulators', slug: 'emulators' },
-    { type: 'Playable Project', label: 'Playable Projects', slug: 'playable' }
+    { type: 'Playable Project', label: 'Playable Projects', slug: 'playable' },
+    { type: 'Misc', label: 'Misc', slug: 'misc' }
   ];
-  const STATUS_ORDER = ['Online', 'Offline', 'Unknown'];
+  const STATUS_ORDER = ['Online', 'Upcoming', 'Offline', 'Unknown'];
   const SORTS = ['name-asc', 'name-desc', 'date-desc', 'date-asc', 'expansion'];
   const VIEWS = ['grid', 'list'];
   const FILTER_KEYS = ['expansion', 'region', 'language', 'status'];
@@ -114,7 +115,8 @@
   // 16800 -> "~16,800 online"; missing -> "Players: ?"
   function formatPlayers(n) {
     if (typeof n !== 'number') return 'Players: ?';
-    const rounded = n >= 1000 ? Math.round(n / 100) * 100 : Math.round(n / 10) * 10;
+    // Small counts stay exact so "4" does not round down to "~0".
+    const rounded = n >= 1000 ? Math.round(n / 100) * 100 : n >= 50 ? Math.round(n / 10) * 10 : n;
     return `~${rounded.toLocaleString('en-US')} online`;
   }
 
@@ -289,6 +291,7 @@
       addBadge(badges, 'Custom content', CUSTOM_LABELS[p.customContent] || 'Custom content: ?');
       if (p.language && p.language !== 'English') addBadge(badges, 'Language', p.language);
     } else {
+      if (p.status === 'Upcoming') addBadge(badges, 'Status', p.status, 'status status-upcoming');
       addBadge(badges, 'Version', p.version, 'badge-accent');
       addBadge(badges, 'Platform', p.platform);
     }

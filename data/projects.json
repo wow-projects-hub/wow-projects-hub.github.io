@@ -628,5 +628,217 @@
     "language": "English",
     "status": "Online",
     "addedAt": "2026-10-30"
+  },
+  {
+    "type": "Private Server",
+    "imageFit": "contain",
+    "region": "Unknown",
+    "language": "English",
+    "status": "Online",
+    "addedAt": "2026-10-31",
+    "id": "keldurn",
+    "title": "Keldurn",
+    "url": "https://keldurn.com",
+    "image": "assets/logos/keldurn.webp",
+    "expansion": "Vanilla",
+    "version": "1.12.1",
+    "description": "Blizzlike x1 Vanilla realm you play in the browser, on phones or with the Windows client. Free.",
+    "customContent": "No",
+    "rates": "x1",
+    "tags": [
+      "Blizzlike",
+      "Browser",
+      "PvP"
+    ]
+  },
+  {
+    "type": "Private Server",
+    "imageFit": "contain",
+    "region": "Unknown",
+    "language": "English",
+    "status": "Online",
+    "addedAt": "2026-10-31",
+    "id": "warcrown",
+    "title": "WarCrown",
+    "url": "https://warcrown.org",
+    "image": "assets/logos/warcrown.webp",
+    "expansion": "WotLK",
+    "version": "3.4.5",
+    "description": "Progressive WotLK on the modern 3.4.5 Classic client: 2x rates, raids that open tier by tier.",
+    "customContent": "Some",
+    "rates": "x2",
+    "tags": [
+      "Blizzlike",
+      "Progressive"
+    ]
+  },
+  {
+    "type": "Private Server",
+    "imageFit": "contain",
+    "region": "Unknown",
+    "language": "English",
+    "status": "Online",
+    "addedAt": "2026-10-31",
+    "playersCheckedAt": "2026-10-31",
+    "id": "conquest-reborn",
+    "title": "Conquest Reborn",
+    "url": "https://conquestreborn.com",
+    "image": "assets/logos/conquest-reborn.webp",
+    "expansion": "Vanilla",
+    "version": "3.3.5a",
+    "description": "Conquest of Azeroth revival with all 21 classes, Mythic+, staged raids and a custom zone. No shop.",
+    "players": 323,
+    "customContent": "Yes",
+    "tags": [
+      "Custom Content"
+    ]
+  },
+  {
+    "type": "Private Server",
+    "imageFit": "contain",
+    "region": "Unknown",
+    "language": "English",
+    "status": "Online",
+    "addedAt": "2026-10-31",
+    "id": "ardenwow",
+    "title": "ArdenWoW",
+    "url": "https://ardenwow.com",
+    "image": "assets/logos/ardenwow.webp",
+    "expansion": "Vanilla",
+    "version": "3.3.5a",
+    "description": "Independent Conquest of Azeroth-style realm: 21 custom classes, leveling challenges, level 60.",
+    "customContent": "Yes",
+    "rates": "x1.5",
+    "tags": [
+      "Custom Content"
+    ]
+  },
+  {
+    "type": "Private Server",
+    "imageFit": "contain",
+    "region": "Unknown",
+    "language": "English",
+    "status": "Online",
+    "addedAt": "2026-10-31",
+    "playersCheckedAt": "2026-10-31",
+    "id": "outlawcraft",
+    "title": "OutlawCraft: Survive",
+    "url": "https://outlawcraft.com",
+    "image": "assets/logos/outlawcraft.webp",
+    "expansion": "WotLK",
+    "version": "3.3.5a",
+    "description": "Zombie survival on 3.3.5a: hunger and thirst, full-loot death, base building and proximity voice.",
+    "players": 4,
+    "customContent": "Yes",
+    "tags": [
+      "Custom Content",
+      "Survival",
+      "PvP"
+    ]
+  },
+  {
+    "type": "Private Server",
+    "imageFit": "contain",
+    "region": "Unknown",
+    "language": "English",
+    "status": "Online",
+    "addedAt": "2026-10-31",
+    "playersCheckedAt": "2026-10-31",
+    "id": "comfycraft",
+    "title": "ComfyCraft",
+    "url": "https://comfycraft.dedyn.io",
+    "image": "assets/logos/comfycraft.webp",
+    "expansion": "Vanilla",
+    "version": "1.18.1",
+    "description": "Cozy Vanilla+ realm with player housing, companions and bots. Open alpha, level cap 20 for now.",
+    "players": 80,
+    "customContent": "Yes",
+    "rates": "x1",
+    "tags": [
+      "Custom Content",
+      "Housing",
+      "Bots"
+    ]
+  },
+  {
+    "type": "Playable Project",
+    "imageFit": "contain",
+    "region": "Global",
+    "language": "English",
+    "status": "Upcoming",
+    "addedAt": "2026-10-31",
+    "id": "warcrown-plunderstorm",
+    "title": "WarCrown: Plunderstorm",
+    "url": "https://warcrown.org/news/plunderstorm-is-coming-to-warcrown",
+    "image": "assets/logos/warcrown-plunderstorm.webp",
+    "expansion": "WotLK",
+    "version": "3.4.5",
+    "platform": "Windows",
+    "description": "Pirate battle royale for up to 60 players in Arathi Highlands on WarCrown. Starts 28 Nov 2026.",
+    "tags": [
+      "Fun",
+      "PvP",
+      "Battle Royale"
+    ]
+  },
+  {
+    "type": "Playable Project",
+    "imageFit": "contain",
+    "region": "Global",
+    "language": "English",
+    "status": "Online",
+    "addedAt": "2026-10-31",
+    "id": "warcraft-idle-adventure",
+    "title": "Warcraft Idle Adventure",
+    "url": "https://discord.gg/ddqZyuK5vm",
+    "image": "assets/logos/warcraft-idle-adventure.webp",
+    "expansion": "Vanilla",
+    "version": "1.12.1",
+    "platform": "Windows",
+    "description": "Party idle game: pick three of five classes, auto-run routes, craft gear and fight Deadmines bosses.",
+    "tags": [
+      "Fun",
+      "Idle"
+    ]
+  },
+  {
+    "type": "Playable Project",
+    "imageFit": "contain",
+    "region": "Global",
+    "language": "English",
+    "status": "Online",
+    "addedAt": "2026-10-31",
+    "id": "eqwow",
+    "title": "EQWOW",
+    "url": "https://github.com/NathanHandley/EQWOWConverter",
+    "image": "assets/logos/eqwow.webp",
+    "expansion": "WotLK",
+    "version": "3.3.5a",
+    "platform": "Self-hosted (AzerothCore)",
+    "description": "Converts the original EverQuest world into WoW 3.3.5 so you can play Norrath on your own server.",
+    "tags": [
+      "Open Source",
+      "Custom Content"
+    ]
+  },
+  {
+    "id": "saureks-closet",
+    "title": "Saurek's Closet",
+    "url": "https://saurek.org",
+    "image": "assets/logos/saureks-closet.webp",
+    "imageFit": "contain",
+    "type": "Misc",
+    "expansion": "Vanilla",
+    "version": "1.12.1",
+    "platform": "Addon",
+    "description": "Wardrobe addon for the 1.12.1 client: browse and preview item appearances and save your looks.",
+    "tags": [
+      "Addon",
+      "Transmog"
+    ],
+    "region": "Global",
+    "language": "English",
+    "status": "Online",
+    "addedAt": "2026-10-31"
   }
 ]

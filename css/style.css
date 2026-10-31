@@ -471,6 +471,7 @@ main { flex: 1; padding-block: var(--space-5) var(--space-7); }
 }
 .status-online::before { background: var(--ok); box-shadow: 0 0 8px var(--ok); }
 .status-offline::before { background: var(--bad); }
+.status-upcoming::before { background: var(--warn, #f2c94c); }
 
 .badges { margin-top: auto; }
 
