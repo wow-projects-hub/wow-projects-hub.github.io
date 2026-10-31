@@ -352,6 +352,25 @@
     "addedAt": "2026-10-30"
   },
   {
+    "id": "summit",
+    "title": "Summit",
+    "description": "WotLK emulator written entirely in Go, with separate auth and world servers. Still in development.",
+    "image": "assets/logos/summit.webp",
+    "imageFit": "contain",
+    "url": "https://github.com/paalgyula/summit",
+    "type": "Server Emulator",
+    "expansion": "WotLK",
+    "version": "3.3.5a",
+    "tags": [
+      "Emulator",
+      "Open Source"
+    ],
+    "region": "Global",
+    "language": "English",
+    "status": "Online",
+    "addedAt": "2026-10-31"
+  },
+  {
     "id": "azeroth-survivors",
     "title": "Azeroth Survivors",
     "description": "Vampire Survivors-style roguelike on a from-scratch WoW 1.12 client. Plays in the browser or on Windows.",
@@ -761,6 +780,30 @@
     ]
   },
   {
+    "id": "centurion",
+    "title": "Centurion",
+    "description": "Factionless Classic+ PvP on 3.3.5a: reworked 1.12 classes, full-loot War Mode, PvP bots, 22 arenas.",
+    "image": "assets/logos/centurion.webp",
+    "imageFit": "contain",
+    "url": "https://centurionpvp.com",
+    "type": "Private Server",
+    "expansion": "Vanilla",
+    "version": "3.3.5a",
+    "tags": [
+      "Custom Content",
+      "PvP",
+      "Bots",
+      "Arena"
+    ],
+    "region": "Unknown",
+    "language": "English",
+    "players": 1,
+    "playersCheckedAt": "2026-10-31",
+    "customContent": "Yes",
+    "status": "Online",
+    "addedAt": "2026-10-31"
+  },
+  {
     "type": "Playable Project",
     "imageFit": "contain",
     "region": "Global",
@@ -835,6 +878,25 @@
     "tags": [
       "Addon",
       "Transmog"
+    ],
+    "region": "Global",
+    "language": "English",
+    "status": "Online",
+    "addedAt": "2026-10-31"
+  },
+  {
+    "id": "wow-imito",
+    "title": "WoW Imito",
+    "url": "https://github.com/MrAnonymz/WoW-Imito",
+    "image": "assets/logos/wow-imito.webp",
+    "type": "Misc",
+    "expansion": "Multiple",
+    "version": "1.12.1 · 2.4.3 · 3.3.5a",
+    "platform": "Android",
+    "description": "Android app that runs your own 1.12, 2.4.3 or 3.3.5a client with touch or controller controls.",
+    "tags": [
+      "Tool",
+      "Mobile"
     ],
     "region": "Global",
     "language": "English",
